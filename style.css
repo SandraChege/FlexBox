@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", serif;
+}
+body{
+    background-color:hsl(0, 0%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .my-headings{
+    text-align: center;
+    margin-top: 30px;
+}
+.main .my-headings .heading1{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+.main .my-headings .heading2{
+    font-weight: 600;
+    font-size: 34px;
+    color: hsl(234, 12%, 34%);
+}
+.main .my-headings p{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw; 
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow:5px 5px 5px 5px hsl(234, 12%, 34%, 0.5);
+}
+.cardcenter{
+    margin: auto 30px;
+}
+.supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.teambuilder{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    margin-top: 20px;
+}
+.calculator{
+    border-top: 3px solid hsl(212, 86%, 64%) ;
+}
+.card h1{
+    display: flex;
+    justify-content: flex-start;
+    color: hsl(234, 12%, 34%);
+}
+.card p{
+    display: flex;
+    justify-content: flex-start;
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+}
+.card .my-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.card .my-image svg{
+    padding-top: 20px;
+}
+
