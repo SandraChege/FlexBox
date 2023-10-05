@@ -76,7 +76,8 @@ body{
     justify-content: flex-end;
     align-items: flex-end;
 }
-.card .my-image svg{
+.card .my-image img{
     padding-top: 20px;
+
 }
 
